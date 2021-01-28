@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dQ73tMjCZUXwY1bVf8mR/m8uKtxOYoYktxWMWxGRokzlOwYREAuaRAkQ9hB/EEYx5zLw+FhJBpDJJeO/UaXRpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LucasRoccoFerreira\\source\\repos\\labs\\farmer\\FarmerApp.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LucasRoccoFerreira\\.nuget\\packages\\farmer\\1.3.2\\farmer.1.3.2.nupkg.sha512",
+    "C:\\Users\\LucasRoccoFerreira\\.nuget\\packages\\fsharp.core\\4.7.2\\fsharp.core.4.7.2.nupkg.sha512",
+    "C:\\Users\\LucasRoccoFerreira\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
