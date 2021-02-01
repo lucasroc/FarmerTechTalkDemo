@@ -7,6 +7,6 @@ open System
 module MultipleResource =
     //Cria uma Storage Account
     let myStorage = storageAccount {
-        name "tecktalkfarmersa"
+        name "tecktalkfarmersa"        
     }
 

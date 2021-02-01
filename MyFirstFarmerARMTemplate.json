@@ -9,7 +9,7 @@
       "dependsOn": [],
       "kind": "StorageV2",
       "location": "brazilsouth",
-      "name": "tecktalkfarmersa",
+      "name": "tecktalkfarmersa1",
       "properties": {},
       "sku": {
         "name": "Standard_LRS"
@@ -21,7 +21,7 @@
       "apiVersion": "2016-08-01",
       "dependsOn": [
         "[resourceId('Microsoft.Insights/components', 'TechTalkFarmerWebSite-ai')]",
-        "[resourceId('Microsoft.Storage/storageAccounts', 'tecktalkfarmersa')]",
+        "[resourceId('Microsoft.Storage/storageAccounts', 'tecktalkfarmersa1')]",
         "[resourceId('Microsoft.Web/serverfarms', 'TechTalkFarmerWebSite-farm')]"
       ],
       "identity": {
@@ -74,7 +74,7 @@
             },
             {
               "name": "storageKey",
-              "value": "[concat('DefaultEndpointsProtocol=https;AccountName=tecktalkfarmersa;AccountKey=', listKeys(resourceId('Microsoft.Storage/storageAccounts', 'tecktalkfarmersa'), '2017-10-01').keys[0].value)]"
+              "value": "[concat('DefaultEndpointsProtocol=https;AccountName=tecktalkfarmersa1;AccountKey=', listKeys(resourceId('Microsoft.Storage/storageAccounts', 'tecktalkfarmersa1'), '2017-10-01').keys[0].value)]"
             }
           ],
           "connectionStrings": [],
