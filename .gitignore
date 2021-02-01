@@ -1,3 +1,5 @@
 .farmer
-.bin
-.obj
+bin
+obj
+.fake
+.ionide
